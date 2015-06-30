@@ -8,23 +8,6 @@ creat_room
 
 ### PARAMS
 
-| 字段 | 类型 | 必须 | 描述 |
-|----- | -----| ----- | ------ |
-| chatIds | List<Integer> | false | 用户id |
-| type  | Integer | true | 类型 |
-| roomName  | String | fale | 昵称 |
-
-
-### 返回
-
-| 字段 | 类型 | 描述 |
-|----- | -----| ------ |
-| roomId | Integer | token |
-| members  | String | room用户 |
-| creDt  | Date | 创建实践 |
-| updDt  | Date | 更新时间 |
-| chatId  | Integer | 创建者id |
-| type  | Integer | 类型 |
 ```
 
 * * *
