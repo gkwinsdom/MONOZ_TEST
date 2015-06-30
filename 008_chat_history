@@ -22,7 +22,6 @@ chat_history
 | 字段 | 类型 | 描述 |
 |----- | -----| ------ |
 | lastPage | boolean | 最后一页 |
-下面微数组
 | message | String | message |
 | roomId  | Integer | 房间id |
 | type  | Integer | 类型 |
