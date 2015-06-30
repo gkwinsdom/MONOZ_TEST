@@ -1,0 +1,30 @@
+006_send_message
+
+
+### 加入room
+
+### event
+
+send_message
+
+### PARAMS
+
+| 字段 | 类型 | 必须 | 描述 |
+|----- | -----| ----- | ------ |
+| message | String | true| message |
+| type  | Integer | true | 0:text 1:img 2:audio |
+| roomId  | Integer | true | 房间id |
+
+
+
+
+### 返回
+
+| 字段 | 类型 | 描述 |
+|----- | -----| ------ |
+| code | Integer | token |
+| time  | Date | 时间 |
+
+
+
+```
