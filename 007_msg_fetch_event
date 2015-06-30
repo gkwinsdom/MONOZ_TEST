@@ -1,0 +1,19 @@
+007_msg_fetch_event
+
+### 接收消息
+
+### event
+
+msg_fetch_event
+
+### 返回参数
+
+| 字段 | 类型 | 必须 | 描述 |
+|----- | -----| ----- | ------ |
+| message | String| false | message |
+| roomId  | Integer | true | 房间id |
+| type  | Integer | true | 类型 |
+| senderName  | String | true | 发送者名 |
+
+
+```
